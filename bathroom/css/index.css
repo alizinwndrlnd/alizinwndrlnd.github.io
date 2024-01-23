@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* Navbar  */
+.header {
+    background-color: #193510;
+    padding: .5rem;
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+nav.navbar {
+    padding: 0;
+}
+
+.navbar.header.nav-item {
+    color: whitesmoke;
+}
+
+/* Navbar  */
+
+
+
+
+
+
+
+
+
+/* bathroom. */
+.bathroomnavbar {
+    /* background-color: #80a174; */
+    background-color: rgb(168, 63, 93);
+}
+
+.bathroomcim {
+    margin: 3rem 0;
+    font-weight: bold;
+}
+
+.bathroomcol1 {
+    height: 25rem;
+    width: 25rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0;
+}
+
+.bathroomcol2 {
+    height: 25rem;
+    width: 25rem;
+    background-color: rgba(231 130 159 /.2);
+    border: 1px solid black;
+    padding: 0;
+}
+
+.bathroomcol1:hover {
+    background-color: rgb(168, 63, 93);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bathroomcol2:hover {
+    background-color: rgb(168, 63, 93);
+    color: white;
+}
+
+.bathroomlink {
+    text-decoration: none;
+    color: black;
+}
+
+.kep1 {
+    width: 61%;
+    margin: 1rem 1rem;
+}
+
+.kep2 {
+    width: 61%;
+    margin: 1rem 1rem;
+}
+
+.kep3 {
+    width: 61%;
+    margin: 1rem 1rem;
+}
+
+.kep4 {
+    height: 92%;
+    width: 70%;
+    margin: 1rem 1rem;
+}
+
+.kep5 {
+    margin: 1rem 1rem;
+    height: 92%;
+    width: auto;
+}
+
+.kep6 {
+    margin: 1rem;
+    height: 92%;
+    width: auto;
+}
+
+
+
+.kartyaszoveg {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.kartyacim {
+    padding: 1rem;
+}
+
+
+
+.koszonet {
+    margin: 2rem 0;
+}
+
+.koszonet a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.bathroomFooter {
+    background-color: rgb(168, 63, 93);
+    text-align: center;
+    color: whitesmoke;
+}
+
+.koszonet a:hover {
+    color: rgb(232, 130, 159);
+    font-size: larger;
+}
+
+.kartyacim {
+    font-weight:700;
+}
+
+/* bathroom. */
