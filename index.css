@@ -1,0 +1,28 @@
+.container {
+text-align: center;
+margin-top: 3rem;
+border: 3px double darkred;
+background-color: whitesmoke;
+}
+
+p{
+    margin-top: 3rem;
+}
+
+b {
+    color: #8b0000;
+}
+ 
+
+
+h1{
+font-size: 5rem;
+
+}
+
+
+h2, p {
+    margin-top: 5rem;
+    
+}
+
