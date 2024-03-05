@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">home.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="../introduction/introduction.html">introduction.</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            school projects.
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./form/form.html">form.</a></li>
+                            <li><a class="dropdown-item" href="../live music/livemusic.html" target="_blank">live
+                                    music.</a></li>
+                            <li><a class="dropdown-item" href="../bathroom/bathroom.html" target="_blank">bathroom.</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../anakin/anakinsky.html">anakin.</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="col-xs-12 col-md-4 offset-md-4 ">
+
+        <div class="row">
+            <form action="http://192.168.209.29/kedvencek/favourites.php" method="get">
+                <h1>form.</h1>
+                <label for="név" class="form-label"> what's your name?</label>
+                <input type="text" class="form-control" name="név" id="név" placeholder="Tóth Béla">
+
+                <div class="my-3">
+                    <label for="email" class="form-label">your email address?</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="toth.bela@example.com">
+                </div>
+
+                <div class="my-3">
+                    <label for="szin" class="form-label">what's your favourite color? </label>
+                    <select class="form-select" id="szin" aria-label="Default select example">
+                        <option selected>red</option>
+                        <option value="1">green</option>
+                        <option value="2">blue</option>
+                        <option value="3">brown</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <div class="my-3 col-xs-12 col-md-6 ">
+                        <fieldset>
+                            <legend>what's your favourite car?</legend>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="car" id="tesla">
+                                <label class="form-check-label" for="tesla">
+                                    Tesla
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="car" id="audi">
+                                <label class="form-check-label" for="audi">
+                                    Audi
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="car" id="bmw">
+                                <label class="form-check-label" for="bmw">
+                                    BMW
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="car" id="suzuki">
+                                <label class="form-check-label" for="suzuki">
+                                    Suzuki
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="car" id="honda">
+                                <label class="form-check-label" for="honda">
+                                    Honda
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="car" id="mercedes">
+                                <label class="form-check-label" for="mercedes">
+                                    Mercedes
+                                </label>
+                            </div>
+                        </fieldset>
+
+                    </div>
+
+
+                    <div class="my-3 col-xs-12 col-md-6">
+                        <fieldset>
+                            <legend> what interest you? </legend>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="gomb1">
+                                <label class="form-check-label" for="gomb1">
+                                    football
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="gomb2" checked>
+                                <label class="form-check-label" for="gomb2">
+                                    board gmaes
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="gomb3">
+                                <label class="form-check-label" for="gomb3">
+                                    e-sport
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="gomb4">
+                                <label class="form-check-label" for="gomb4">
+                                    drawing
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="gomb5">
+                                <label class="form-check-label" for="gomb5">
+                                    geocache
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="gomb6">
+                                <label class="form-check-label" for="gomb6">
+                                    karaoke
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    F1
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+
+
+
+
+                <div class=" my-3 mx-3">
+                    <label for="message" class="form-label">message.</label>
+
+                    <textarea class="form-control" id="message"></textarea>
+                </div>
+
+
+
+                <div class=" col-md-6 offset-md-3 my-3  ">
+                    <input type="checkbox" class="btn-check" id="btn-check">
+                    <button class="btn btn-primary">send</button>
+                </div>
+
+
+
+
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
